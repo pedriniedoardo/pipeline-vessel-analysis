@@ -1,0 +1,281 @@
+	
+ics_version	1.0
+filename	1_L_4_2
+layout	parameters	5
+layout	order	bits	ch	x	y	z
+layout	sizes	16	4	512	512	33
+layout	significant_bits	12
+layout	real_significant_bits	12
+layout	significant_channels	4
+layout	coordinates	video
+representation	format	integer
+representation	sign	unsigned
+representation	compression	uncompressed
+representation	byte_order	1	2
+parameter	origin	0.000000	1.000000	-159.125000	-159.125000	-29.000000
+parameter	scale	0.083333	0.000000	0.621582	0.621582	1.000000
+parameter	sample_width	-1.000000	0.000000	-1.000000	-1.000000	-1.000000
+parameter	range	1.000000	0.000000	318.250000	318.250000	33.000000
+parameter	units	ADC-units	channels	um	um	um
+parameter	ch	480/25	515/30	650LP	Trans
+parameter	lower_limit	0
+parameter	higher_limit	4095
+parameter	labels	intensity	ch	x	y	z
+parameter	allowedlinemodes	-1
+document	date	14492431442660
+document	label	intensity	ch	x	y	z
+document	document	average	0	0	0
+document	document	profile	1
+history	Acquisition	Acquire.Scanner.Name	Confocal C1 Scanner
+history	Acquisition	Acquire.Scanner.XField.DisplayString	318.3  um
+history	Acquisition	Acquire.Scanner.YField.DisplayString	318.3  um
+history	Acquisition	Acquire.Scanner.XPosition.DisplayString	0.0  um
+history	Acquisition	Acquire.Scanner.YPosition.DisplayString	0.0  um
+history	Acquisition	Acquire.Scanner.Angle	0
+history	Acquisition	Acquire.Scanner.ScanMode	0
+history	Acquisition	Acquire.Scanner.TransmittedDetector	2
+history	firmware	2.00
+history	Acquisition	Acquire.Scanner.ClemMode	0
+history	Acquisition	Modules("Confocal C1 Grabber").BarrierFilter(1)	BA 480/25
+history	Acquisition	Modules("Confocal C1 Grabber").BarrierFilter(2)	BA 650LP
+history	Acquisition	Modules("Confocal C1 Grabber").BarrierFilter(3)	BA 515/30
+history	Acquisition	Modules("Confocal C1 Grabber").DichroicMirror(1)	DM 480
+history	Acquisition	Modules("Confocal C1 Grabber").DichroicMirror(2)	DM 545
+history	Acquisition	Modules("Confocal C1 Grabber").EnableChannel(1)	False
+history	Acquisition	Modules("Confocal C1 Grabber").EnableChannel(2)	False
+history	Acquisition	Modules("Confocal C1 Grabber").EnableChannel(3)	True
+history	Acquisition	Modules("Confocal C1 Grabber").EnableChannel(4)	False
+history	Acquisition	Modules("Confocal C1 Grabber").LinearGainMode	False
+history	Acquisition	Modules("Confocal C1 Grabber").PixelTimeCorrection	True
+history	Acquisition	Modules("Confocal C1 Grabber").Offset(1)	44
+history	Acquisition	Modules("Confocal C1 Grabber").Offset(2)	0
+history	Acquisition	Modules("Confocal C1 Grabber").Offset(3)	68
+history	Acquisition	Modules("Confocal C1 Grabber").Offset(4)	52
+history	Acquisition	LaserBox.MountedLasers.Count	3
+history	Acquisition	LaserBox.Name	Confocal C1 LaserBox
+history	Acquisition	LaserBox.Lasers(1).IntensityControlChannel	0
+history	Acquisition	LaserBox.Lasers(2).IntensityControlChannel	0
+history	Acquisition	LaserBox.Lasers(3).IntensityControlChannel	0
+history	Acquisition	LaserBox.Lasers(4).IntensityControlChannel	0
+history	Acquisition	LaserBox.Lasers(5).IntensityControlChannel	0
+history	Acquisition	LaserBox.Lasers(6).IntensityControlChannel	0
+history	Acquisition	LaserBox.Lasers(7).IntensityControlChannel	0
+history	Acquisition	Acquire.ZStack.Top.DisplayString	-29.00  um
+history	Acquisition	Acquire.ZStack.Reference.DisplayString	0.00  um
+history	Acquisition	Acquire.ZStack.Bottom.DisplayString	3.00  um
+history	Acquisition	Acquire.ZStack.Range.DisplayString	33.00  um
+history	Acquisition	Acquire.ZStack.StepSize.DisplayString	1.00  um
+history	laser	power	over
+history	PassCount	1
+history	step1	Name	Pass 1
+history	step1	Pinhole	60 um medium
+history	step1	Channel 1	off
+history	step1	Channel 2	off
+history	step1	Channel 3	on
+history	step1	Channel 4	off
+history	step1	Gain 1	0
+history	step1	Gain 2	118
+history	step1	Gain 3	0
+history	step1	Gain 4	0
+history	step1	Shutter 1	closed
+history	step1	Shutter 2	closed
+history	step1	Shutter 3	automatic
+history	objective	Plan Fluor 40.0x/0.75/0.72 Dry spring-loaded
+history	objective	Type	Plan Fluor
+history	objective	Magnification	40.0
+history	objective	NA	0.750
+history	objective	WorkingDistance	0.72
+history	objective	Immersion	Dry
+history	detector	standard
+history	gain1	0
+history	gain2	118
+history	gain3	0
+history	gain4	0
+history	dwell	1.68 us
+history	shutter1	closed
+history	shutter2	closed
+history	shutter3	automatic
+history	shutter4	closed
+history	shutter5	closed
+history	shutter6	closed
+history	shutter7	closed
+history	pinhole	61.5 um
+history	date	Friday, December 04, 2015 15:32:24 (+1:00)
+history	dateGMT	Friday, December 04, 2015 15:32:24
+history	Acquisition	Acquire.LineChannelSeries.Enable	False
+history	Acquisition	Acquire.LineChannelSeries.PassCount	0
+history	Acquisition	Acquire.TimeSeries.Enable	False
+history	Acquisition	Acquire.TimeSeries.Speed	0
+history	Acquisition	Acquire.TimeSeries.Delay	0
+history	Acquisition	Acquire.TimeSeries.DelayUnit	2
+history	Acquisition	Acquire.TimeSeries.Number	2
+history	Acquisition	Acquire.TimeSeries.NumberOfGroups	3
+history	Acquisition	Acquire.TimeSeries.NumberAt(1)	10
+history	Acquisition	Acquire.TimeSeries.NumberAt(2)	10
+history	Acquisition	Acquire.TimeSeries.NumberAt(3)	10
+history	Acquisition	Acquire.TimeSeries.DelayAt(1)	5
+history	Acquisition	Acquire.TimeSeries.DelayAt(2)	10
+history	Acquisition	Acquire.TimeSeries.DelayAt(3)	20
+history	Acquisition	Acquire.TimeSeries.DelayUnitAt(1)	2
+history	Acquisition	Acquire.TimeSeries.DelayUnitAt(2)	2
+history	Acquisition	Acquire.TimeSeries.DelayUnitAt(3)	2
+history	Acquisition	Acquire.TimeSeries.BleachAt(1)	0
+history	Acquisition	Acquire.TimeSeries.BleachAt(2)	0
+history	Acquisition	Acquire.TimeSeries.BleachAt(3)	0
+history	Acquisition	Acquire.TimeSeries.SaveToFile	0
+history	Acquisition	Acquire.LineMode	False
+history	Acquisition	Acquire.ZStack.Enable	True
+history	Acquisition	objective position	5
+history	Acquisition	Acquire.ChannelSeries.Enable	True
+history	Acquisition	Acquire.Average.Enable	False
+history	Acquisition	Acquire.Average.StopAtCount	True
+history	Acquisition	Acquire.Average.StopAtCountLimit	4
+history	Acquisition	Acquire.Average.StopAtQuality	False
+history	Acquisition	Acquire.Average.StopAtQualityLimit	13
+history	laser1	wavelength	408 nm
+history	laser1	name	408
+history	laser2	wavelength	488 nm
+history	laser2	name	488
+history	laser3	wavelength	561 nm
+history	laser3	name	561
+history	software	EZ-C1
+history	version	Gold Version 3.80 build 860
+history	objective	Detail	spring-loaded
+sensor	type	IncohConfMicr
+sensor	model	Nikon C1 Standard Detector
+sensor	s_params	Channels	4
+sensor	s_params	PinholeRadius	1538	1538	1538	1538
+sensor	s_params	LambdaEx	561	561	561	561
+sensor	s_params	LambdaEm	473	515	700	0
+sensor	s_params	ExPhotonCnt	1	1	1	1
+sensor	s_params	RefrInxMedium	1
+sensor	s_params	RefrInxLensMedium	1
+sensor	s_params	NumAperture	0.75
+view	view	color	schemes	rgb	lut	true
+view	view	color	lib	lut	grey-scale	red	2	0	0	255	255
+view	view	color	lib	lut	grey-scale	green	2	0	0	255	255
+view	view	color	lib	lut	grey-scale	blue	2	0	0	255	255
+view	view	color	lib	lut	false-color	red	6	0	0	51	0	91	200	152	255	221	219	255	255
+view	view	color	lib	lut	false-color	green	6	0	0	71	255	121	255	171	149	191	50	255	255
+view	view	color	lib	lut	false-color	blue	5	0	0	41	255	150	0	221	219	255	255
+view	view	color	lib	lut	Rainbow	red	25	0	65	20	48	30	30	40	16	50	5	60	0	70	0	80	6	90	15	100	29	110	45	120	64	130	82	140	102	150	120	160	140	170	156	180	172	190	189	200	202	210	216	220	227	230	237	240	245	255	251
+view	view	color	lib	lut	Rainbow	green	25	0	25	20	41	30	63	40	85	50	111	60	134	70	157	80	175	90	189	100	201	110	207	120	210	130	209	140	205	150	200	160	191	170	182	180	171	190	159	200	146	210	132	220	118	230	103	240	89	255	73
+view	view	color	lib	lut	Rainbow	blue	25	0	173	20	179	30	180	40	176	50	166	60	153	70	134	80	116	90	96	100	76	110	58	120	42	130	29	140	17	150	9	160	3	170	0	180	0	190	1	200	4	210	10	220	17	230	27	240	38	255	52
+view	view	color	lib	lut	Rainbow Contrast	red	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	13	110	75	120	144	130	187	140	219	150	248	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Rainbow Contrast	green	25	0	124	20	174	30	209	40	241	50	255	60	255	70	255	80	255	90	255	100	255	110	255	120	255	130	255	140	255	150	255	160	228	170	198	180	166	190	112	200	64	210	34	220	40	230	46	240	52	255	58
+view	view	color	lib	lut	Rainbow Contrast	blue	25	0	255	20	255	30	255	40	255	50	233	60	200	70	164	80	107	90	50	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	1	190	13	200	24	210	53	220	100	230	153	240	188	255	223
+view	view	color	lib	lut	Iron	red	25	0	67	20	79	30	93	40	106	50	120	60	132	70	145	80	157	90	168	100	180	110	191	120	202	130	211	140	219	150	225	160	230	170	233	180	237	190	241	200	243	210	245	220	247	230	249	240	251	255	253
+view	view	color	lib	lut	Iron	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	6	130	23	140	42	150	59	160	77	170	94	180	111	190	130	200	147	210	166	220	183	230	202	240	219	255	238
+view	view	color	lib	lut	Iron	blue	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	0	210	0	220	0	230	51	240	117	255	189
+view	view	color	lib	lut	Green Fire	red	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	15	140	55	150	91	160	131	170	167	180	203	190	243	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Green Fire	green	25	0	45	20	66	30	90	40	112	50	136	60	156	70	172	80	186	90	200	100	216	110	231	120	247	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Green Fire	blue	25	0	45	20	66	30	90	40	112	50	136	60	148	70	124	80	102	90	81	100	57	110	35	120	11	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	23	210	63	220	99	230	139	240	175	255	215
+view	view	color	lib	lut	Green Fire Blue	red	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	15	140	55	150	91	160	131	170	167	180	203	190	243	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Green Fire Blue	green	25	0	25	20	37	30	50	40	62	50	75	60	90	70	116	80	140	90	164	100	191	110	215	120	241	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Green Fire Blue	blue	25	0	50	20	74	30	100	40	124	50	151	60	164	70	138	80	114	90	90	100	63	110	39	120	13	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	23	210	63	220	99	230	139	240	175	255	215
+view	view	color	lib	lut	Red Fire	red	25	0	10	20	37	30	67	40	94	50	125	60	150	70	167	80	179	90	192	100	207	110	218	120	233	130	246	140	254	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Red Fire	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	14	110	37	120	65	130	90	140	113	150	131	160	148	170	164	180	180	190	199	200	215	210	234	220	248	230	255	240	255	255	255
+view	view	color	lib	lut	Red Fire	blue	25	0	108	20	147	30	185	40	216	50	224	60	202	70	166	80	132	90	100	100	64	110	31	120	3	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	0	210	0	220	42	230	121	240	191	255	247
+view	view	color	lib	lut	Red Hot	red	25	0	36	20	65	30	96	40	126	50	158	60	187	70	220	80	247	90	255	100	255	110	255	120	255	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Red Hot	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	22	100	55	110	84	120	115	130	145	140	177	150	206	160	239	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Red Hot	blue	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	12	180	41	190	74	200	103	210	135	220	164	230	196	240	225	255	253
+view	view	color	lib	lut	Magenta Hot	red	25	0	30	20	44	30	60	40	74	50	90	60	106	70	130	80	152	90	173	100	197	110	219	120	243	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Magenta Hot	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	6	140	22	150	36	160	52	170	66	180	81	190	97	200	116	210	140	220	161	230	185	240	207	255	231
+view	view	color	lib	lut	Magenta Hot	blue	25	0	30	20	44	30	60	40	74	50	90	60	106	70	130	80	152	90	173	100	197	110	219	120	243	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Brown	red	25	0	66	20	88	30	109	40	120	50	133	60	144	70	152	80	159	90	166	100	173	110	180	120	186	130	190	140	195	150	199	160	205	170	209	180	214	190	219	200	224	210	229	220	234	230	239	240	244	255	249
+view	view	color	lib	lut	Brown	green	25	0	19	20	28	30	37	40	46	50	55	60	61	70	67	80	73	90	80	100	87	110	92	120	98	130	103	140	108	150	112	160	117	170	121	180	126	190	131	200	135	210	140	220	145	230	154	240	164	255	191
+view	view	color	lib	lut	Brown	blue	25	0	1	20	1	30	1	40	1	50	1	60	1	70	1	80	1	90	1	100	3	110	7	120	11	130	15	140	19	150	22	160	26	170	30	180	34	190	38	200	43	210	50	220	57	230	73	240	95	255	145
+view	view	color	lib	lut	Lemon Hot	red	25	0	56	20	83	30	113	40	140	50	170	60	197	70	227	80	255	90	255	100	255	110	255	120	255	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Lemon Hot	green	25	0	38	20	57	30	77	40	96	50	116	60	135	70	155	80	175	90	183	100	192	110	201	120	210	130	219	140	228	150	236	160	246	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Lemon Hot	blue	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	26	190	56	200	83	210	113	220	140	230	170	240	197	255	227
+view	view	color	lib	lut	Yellow Pale	red	25	0	37	20	55	30	75	40	93	50	113	60	131	70	151	80	169	90	187	100	207	110	225	120	245	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Yellow Pale	green	25	0	37	20	55	30	75	40	93	50	113	60	131	70	151	80	169	90	187	100	207	110	225	120	245	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	Yellow Pale	blue	25	0	15	20	22	30	30	40	37	50	45	60	52	70	60	80	67	90	74	100	82	110	90	120	98	130	105	140	113	150	120	160	128	170	135	180	142	190	150	200	157	210	165	220	172	230	180	240	188	255	196
+view	view	color	lib	lut	Blue Red	red	2	0	0	255	255
+view	view	color	lib	lut	Blue Red	green	2	0	0	255	0
+view	view	color	lib	lut	Blue Red	blue	2	0	255	255	0
+view	view	color	lib	lut	Black Blue Red White	red	4	0	0	1	1	254	254	255	255
+view	view	color	lib	lut	Black Blue Red White	green	3	0	0	254	0	255	255
+view	view	color	lib	lut	Black Blue Red White	blue	4	0	0	1	255	254	0	255	255
+view	view	color	lib	lut	RCM8000	red	60	0	0	7	0	8	66	16	66	17	140	24	140	25	214	33	214	34	0	41	0	42	0	50	0	51	49	58	49	59	49	67	49	68	0	75	0	76	82	84	82	85	82	92	82	93	57	101	57	102	0	109	0	110	115	118	115	119	115	126	115	127	0	135	0	136	107	143	107	144	148	152	148	153	156	160	156	161	0	169	0	170	181	177	181	178	189	186	189	187	0	194	0	195	66	203	66	204	222	211	222	212	222	220	222	221	0	228	0	229	206	237	206	238	255	245	255	246	255	255	255
+view	view	color	lib	lut	RCM8000	green	60	0	0	7	0	8	65	16	65	17	138	24	138	25	211	33	211	34	20	41	20	42	44	50	44	51	24	58	24	59	0	67	0	68	60	75	60	76	73	84	73	85	20	92	20	93	56	101	56	102	97	109	97	110	73	118	73	119	0	126	0	127	69	135	69	136	134	143	134	144	65	152	65	153	0	160	0	161	142	169	142	170	158	177	158	178	20	186	20	187	52	194	52	195	195	203	195	204	121	211	121	212	0	220	0	221	142	228	142	229	227	237	227	238	85	245	85	246	125	255	125
+view	view	color	lib	lut	RCM8000	blue	60	0	0	7	0	8	66	16	66	17	140	24	140	25	214	33	214	34	33	41	33	42	24	50	24	51	0	58	0	59	24	67	24	68	33	75	33	76	0	84	0	85	0	92	0	93	115	101	115	102	0	109	0	110	0	118	0	119	33	126	33	127	107	135	107	136	0	143	0	144	0	152	0	153	115	160	115	161	57	169	57	170	0	177	0	178	0	186	0	187	214	194	214	195	0	203	0	204	0	211	0	212	66	220	66	221	156	228	156	229	0	237	0	238	0	245	0	246	123	255	123
+view	view	color	lib	lut	NIS Rainbow	red	25	0	65	20	48	30	30	40	16	50	5	60	0	70	0	80	6	90	15	100	29	110	45	120	64	130	82	140	102	150	120	160	140	170	156	180	172	190	189	200	202	210	216	220	227	230	237	240	245	255	251
+view	view	color	lib	lut	NIS Rainbow	green	25	0	25	20	41	30	63	40	85	50	111	60	134	70	157	80	175	90	189	100	201	110	207	120	210	130	209	140	205	150	200	160	191	170	182	180	171	190	159	200	146	210	132	220	118	230	103	240	89	255	73
+view	view	color	lib	lut	NIS Rainbow	blue	25	0	173	20	179	30	180	40	176	50	166	60	153	70	134	80	116	90	96	100	76	110	58	120	42	130	29	140	17	150	9	160	3	170	0	180	0	190	1	200	4	210	10	220	17	230	27	240	38	255	52
+view	view	color	lib	lut	NIS Rainbow Contrast	red	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	13	110	75	120	144	130	187	140	219	150	248	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Rainbow Contrast	green	25	0	124	20	174	30	209	40	241	50	255	60	255	70	255	80	255	90	255	100	255	110	255	120	255	130	255	140	255	150	255	160	228	170	198	180	166	190	112	200	64	210	34	220	40	230	46	240	52	255	58
+view	view	color	lib	lut	NIS Rainbow Contrast	blue	25	0	255	20	255	30	255	40	255	50	233	60	200	70	164	80	107	90	50	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	1	190	13	200	24	210	53	220	100	230	153	240	188	255	223
+view	view	color	lib	lut	NIS Iron	red	25	0	67	20	79	30	93	40	106	50	120	60	132	70	145	80	157	90	168	100	180	110	191	120	202	130	211	140	219	150	225	160	230	170	233	180	237	190	241	200	243	210	245	220	247	230	249	240	251	255	253
+view	view	color	lib	lut	NIS Iron	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	6	130	23	140	42	150	59	160	77	170	94	180	111	190	130	200	147	210	166	220	183	230	202	240	219	255	238
+view	view	color	lib	lut	NIS Iron	blue	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	0	210	0	220	0	230	51	240	117	255	189
+view	view	color	lib	lut	NIS Cyan Green	red	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	15	140	55	150	91	160	131	170	167	180	203	190	243	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Cyan Green	green	25	0	45	20	66	30	90	40	112	50	136	60	156	70	172	80	186	90	200	100	216	110	231	120	247	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Cyan Green	blue	25	0	45	20	66	30	90	40	112	50	136	60	148	70	124	80	102	90	81	100	57	110	35	120	11	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	23	210	63	220	99	230	139	240	175	255	215
+view	view	color	lib	lut	NIS Blue Green	red	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	15	140	55	150	91	160	131	170	167	180	203	190	243	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Blue Green	green	25	0	25	20	37	30	50	40	62	50	75	60	90	70	116	80	140	90	164	100	191	110	215	120	241	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Blue Green	blue	25	0	50	20	74	30	100	40	124	50	151	60	164	70	138	80	114	90	90	100	63	110	39	120	13	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	23	210	63	220	99	230	139	240	175	255	215
+view	view	color	lib	lut	NIS Blue Red	red	25	0	10	20	37	30	67	40	94	50	125	60	150	70	167	80	179	90	192	100	207	110	218	120	233	130	246	140	254	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Blue Red	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	14	110	37	120	65	130	90	140	113	150	131	160	148	170	164	180	180	190	199	200	215	210	234	220	248	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Blue Red	blue	25	0	108	20	147	30	185	40	216	50	224	60	202	70	166	80	132	90	100	100	64	110	31	120	3	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	0	210	0	220	42	230	121	240	191	255	247
+view	view	color	lib	lut	NIS Red White	red	25	0	36	20	65	30	96	40	126	50	158	60	187	70	220	80	247	90	255	100	255	110	255	120	255	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Red White	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	22	100	55	110	84	120	115	130	145	140	177	150	206	160	239	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Red White	blue	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	12	180	41	190	74	200	103	210	135	220	164	230	196	240	225	255	253
+view	view	color	lib	lut	NIS Magenta	red	25	0	30	20	44	30	60	40	74	50	90	60	106	70	130	80	152	90	173	100	197	110	219	120	243	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Magenta	green	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	6	140	22	150	36	160	52	170	66	180	81	190	97	200	116	210	140	220	161	230	185	240	207	255	231
+view	view	color	lib	lut	NIS Magenta	blue	25	0	30	20	44	30	60	40	74	50	90	60	106	70	130	80	152	90	173	100	197	110	219	120	243	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Brown	red	25	0	66	20	88	30	109	40	120	50	133	60	144	70	152	80	159	90	166	100	173	110	180	120	186	130	190	140	195	150	199	160	205	170	209	180	214	190	219	200	224	210	229	220	234	230	239	240	244	255	249
+view	view	color	lib	lut	NIS Brown	green	25	0	19	20	28	30	37	40	46	50	55	60	61	70	67	80	73	90	80	100	87	110	92	120	98	130	103	140	108	150	112	160	117	170	121	180	126	190	131	200	135	210	140	220	145	230	154	240	164	255	191
+view	view	color	lib	lut	NIS Brown	blue	25	0	1	20	1	30	1	40	1	50	1	60	1	70	1	80	1	90	1	100	3	110	7	120	11	130	15	140	19	150	22	160	26	170	30	180	34	190	38	200	43	210	50	220	57	230	73	240	95	255	145
+view	view	color	lib	lut	NIS Orange	red	25	0	56	20	83	30	113	40	140	50	170	60	197	70	227	80	255	90	255	100	255	110	255	120	255	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Orange	green	25	0	38	20	57	30	77	40	96	50	116	60	135	70	155	80	175	90	183	100	192	110	201	120	210	130	219	140	228	150	236	160	246	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Orange	blue	25	0	0	20	0	30	0	40	0	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	26	190	56	200	83	210	113	220	140	230	170	240	197	255	227
+view	view	color	lib	lut	NIS Yellow	red	25	0	37	20	55	30	75	40	93	50	113	60	131	70	151	80	169	90	187	100	207	110	225	120	245	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Yellow	green	25	0	37	20	55	30	75	40	93	50	113	60	131	70	151	80	169	90	187	100	207	110	225	120	245	130	255	140	255	150	255	160	255	170	255	180	255	190	255	200	255	210	255	220	255	230	255	240	255	255	255
+view	view	color	lib	lut	NIS Yellow	blue	25	0	15	20	22	30	30	40	37	50	45	60	52	70	60	80	67	90	74	100	82	110	90	120	98	130	105	140	113	150	120	160	128	170	135	180	142	190	150	200	157	210	165	220	172	230	180	240	188	255	196
+view	view	color	lib	lut	blue-red	red	2	0	0	255	255
+view	view	color	lib	lut	blue-red	green	2	0	0	255	0
+view	view	color	lib	lut	blue-red	blue	2	0	255	255	0
+view	view	color	lib	lut	black-blue-red-white	red	4	0	0	1	1	254	254	255	255
+view	view	color	lib	lut	black-blue-red-white	green	3	0	0	254	0	255	255
+view	view	color	lib	lut	black-blue-red-white	blue	4	0	0	1	255	254	0	255	255
+view	view	color	lib	lut	rcm8000	red	60	0	0	7	0	8	66	16	66	17	140	24	140	25	214	33	214	34	0	41	0	42	0	50	0	51	49	58	49	59	49	67	49	68	0	75	0	76	82	84	82	85	82	92	82	93	57	101	57	102	0	109	0	110	115	118	115	119	115	126	115	127	0	135	0	136	107	143	107	144	148	152	148	153	156	160	156	161	0	169	0	170	181	177	181	178	189	186	189	187	0	194	0	195	66	203	66	204	222	211	222	212	222	220	222	221	0	228	0	229	206	237	206	238	255	245	255	246	255	255	255
+view	view	color	lib	lut	rcm8000	green	60	0	0	7	0	8	65	16	65	17	138	24	138	25	211	33	211	34	20	41	20	42	44	50	44	51	24	58	24	59	0	67	0	68	60	75	60	76	73	84	73	85	20	92	20	93	56	101	56	102	97	109	97	110	73	118	73	119	0	126	0	127	69	135	69	136	134	143	134	144	65	152	65	153	0	160	0	161	142	169	142	170	158	177	158	178	20	186	20	187	52	194	52	195	195	203	195	204	121	211	121	212	0	220	0	221	142	228	142	229	227	237	227	238	85	245	85	246	125	255	125
+view	view	color	lib	lut	rcm8000	blue	60	0	0	7	0	8	66	16	66	17	140	24	140	25	214	33	214	34	33	41	33	42	24	50	24	51	0	58	0	59	24	67	24	68	33	75	33	76	0	84	0	85	0	92	0	93	115	101	115	102	0	109	0	110	0	118	0	119	33	126	33	127	107	135	107	136	0	143	0	144	0	152	0	153	115	160	115	161	57	169	57	170	0	177	0	178	0	186	0	187	214	194	214	195	0	203	0	204	0	211	0	212	66	220	66	221	156	228	156	229	0	237	0	238	0	245	0	246	123	255	123
+view	view	color	count	4	9	3	0	1	0	0
+view	view	color	doc	scale	0	4095	0	0	1	0	4095	0	0	1	0	4095	0	0	1	0	4095	0	0	1
+view	view	color	mode	rgb	0	x	9FE028000
+view	view	color	mode	rgb	set	Default Colors	4	0	rgb=ff0000:19	rgb=ff00:28	rgb=ff:3c	rgb=ffffff:64
+view	view	color	mode	rgb	set	Custom Colors	2	1	rgb=ff00:32	rgb=ff:64
+view	view	color	mode	rgb	set	Custom Colors	4	0	rgb=ff0000:19	rgb=ff00:28	rgb=ff3300:3c	rgb=ffffff:64
+view	view	color	1	lut	0	0	1	false-color	0	1	grey-scale	0	1	grey-scale	0	1	grey-scale	0	1	grey-scale	0	1	grey-scale	0	1	grey-scale	0	1	grey-scale	0	1	grey-scale
+view	view	color	view	active	0	0	0	0	0	0	0	0	0
+view	view1	Position	0.414286	0.093561
+view	view1	Size	0.311905	0.553320
+view	view1	Port	4
+view	view1	Cursor	0.000000	0.996094	0.996094	0.969697
+view	view1	Color	2	0	-1	0	1
+view	view1	BlackLevel	0.000000	0.000000	0.000000	0.000000
+view	view1	Saturation	4095.000000	4095.000000	4095.000000	4095.000000
+view	view1	Gamma	1.000000	1.000000	1.000000	1.000000
+view	view1	IntZoom	1
+view	view1	Live	1
+view	view1	Synchronize	1
+view	view1	ShowIndex	1
+view	view1	AutoResize	1
+view	view1	UseUnits	1
+view	view1	Zoom	1.000000
+view	view1	IgnoreAspect	0
+view	view1	ShowCursor	0
+view	view1	ShowAll	0
+view	view1	Axis	0	0
+view	view1	Order	0	1	2	3	4	5
+view	view1	Tile	-1	-1
+view	view1	scale	0.000000	4095.000000	0.000000	0.000000	1.000000	0.000000	4095.000000	0.000000	0.000000	1.000000	0.000000	4095.000000	0.000000	0.000000	1.000000	0.000000	4095.000000	0.000000	0.000000	1.000000
+view	view1	DimViewOption	1	2	1	1	1	1
+view	view1	Alpha	0.500000
+view	view1	AlphaState	0
+view	view1	ZTDStackMode	0
+view	view1	ZTDStackValue	0
+view	view	count	1
+
