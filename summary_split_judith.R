@@ -2,7 +2,7 @@ library(tidyverse)
 #read in the tables
 #df <- read_csv("test_split.csv")
 #identify all the csv files
-folder<-"pipeline-vessel-analysis/csv/split/"
+folder<-"csv/split/"
 file_name <- dir(folder)%>%
   str_subset(pattern = ".csv")
 list_df <- lapply(file_name, function(x){
